@@ -1,0 +1,16 @@
+C:\Users\ASUS\source\repos\ConsoleProject\ConsoleProject\bin\Debug\net5.0\ConsoleProject.exe
+C:\Users\ASUS\source\repos\ConsoleProject\ConsoleProject\bin\Debug\net5.0\ConsoleProject.deps.json
+C:\Users\ASUS\source\repos\ConsoleProject\ConsoleProject\bin\Debug\net5.0\ConsoleProject.runtimeconfig.json
+C:\Users\ASUS\source\repos\ConsoleProject\ConsoleProject\bin\Debug\net5.0\ConsoleProject.runtimeconfig.dev.json
+C:\Users\ASUS\source\repos\ConsoleProject\ConsoleProject\bin\Debug\net5.0\ConsoleProject.dll
+C:\Users\ASUS\source\repos\ConsoleProject\ConsoleProject\bin\Debug\net5.0\ref\ConsoleProject.dll
+C:\Users\ASUS\source\repos\ConsoleProject\ConsoleProject\bin\Debug\net5.0\ConsoleProject.pdb
+C:\Users\ASUS\source\repos\ConsoleProject\ConsoleProject\obj\Debug\net5.0\ConsoleProject.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\ConsoleProject\ConsoleProject\obj\Debug\net5.0\ConsoleProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\ConsoleProject\ConsoleProject\obj\Debug\net5.0\ConsoleProject.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\ConsoleProject\ConsoleProject\obj\Debug\net5.0\ConsoleProject.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\ConsoleProject\ConsoleProject\obj\Debug\net5.0\ConsoleProject.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\ConsoleProject\ConsoleProject\obj\Debug\net5.0\ConsoleProject.dll
+C:\Users\ASUS\source\repos\ConsoleProject\ConsoleProject\obj\Debug\net5.0\ref\ConsoleProject.dll
+C:\Users\ASUS\source\repos\ConsoleProject\ConsoleProject\obj\Debug\net5.0\ConsoleProject.pdb
+C:\Users\ASUS\source\repos\ConsoleProject\ConsoleProject\obj\Debug\net5.0\ConsoleProject.genruntimeconfig.cache
