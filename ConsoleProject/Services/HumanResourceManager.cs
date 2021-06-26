@@ -12,15 +12,15 @@ namespace ConsoleProject.Services
     {
         public List<Department> Departments { get; set; }
         public Department department { get; set; }
-
-        //Asagidaki methodda bize gelen parametrlerle bizde olan departamentleri yoxluyuruq sert odenirse, siyahiya elave edirik
-        public void AddDepartment(string name, int workerlimit, double salarylimit)
+        public HumanResourceManager()
         {
             Departments = new List<Department>();
-            if (Departments.Any(d => d.Name == name && d.WorkerLimit == workerlimit && d.SalaryLimit == salarylimit))
-            {
+        }
+
+        //Asagidaki methodda bize gelen parametrlerle bizde olan departamentleri yoxluyuruq sert odenirse, siyahiya elave edirik
+        public void AddDepartment(Department department)
+        {
                 Departments.Add(department);
-            }
         }
         //Asagidaki methoddda bize gelen paramterlerle employeeleri yoxlyuruq, sert odenirse, yeni bir Employee obyekti siyahiya elave olunur
 

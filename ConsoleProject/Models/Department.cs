@@ -11,7 +11,7 @@ namespace ConsoleProject.Models
         public string Name { get; set; }
         public int WorkerLimit { get; set; }
         public double SalaryLimit { get; set; }
-        List<Employee> Employees { get; set; }
+        public List<Employee> Employees { get; set; }
 
         //List yaraderken onu initialize etmeyimiz mecburidir, eks halda reference etdiyi list uzunlugu null olur.
         public Department()
@@ -21,7 +21,7 @@ namespace ConsoleProject.Models
 
         //Asagida mutleqe listi imitialize etmeliyik ki daha sonradan instance alib obyekt yaradanda bu liste reference etsin
         //eks halda nullreference olur, runtime error cixir.
-        public Department(string name,int workerlimit,double salarylimit)
+        public Department(string name,int workerlimit,double salarylimit):this()
         {
             Name = name;
             WorkerLimit = workerlimit;
