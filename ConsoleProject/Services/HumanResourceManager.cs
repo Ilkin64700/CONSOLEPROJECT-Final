@@ -17,7 +17,7 @@ namespace ConsoleProject.Services
             Departments = new List<Department>();
         }
 
-        //Asagidaki methodda bize gelen parametrlerle bizde olan departamentleri yoxluyuruq sert odenirse, siyahiya elave edirik
+        //Asagidaki methodda bize parametr kimi gelen Departamentleri, siyahiya elave edirik
         public void AddDepartment(Department department)
         {
                 Departments.Add(department);

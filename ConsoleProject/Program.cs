@@ -65,9 +65,10 @@ namespace ConsoleProject
                 }
             } while (true);
 
-        }
-        
 
+        }
+
+        //Sistemdeki departamentler siyahisini gosterir
         public static void GetDepartment(HumanResourceManager humanresourcemanager)
         {
             foreach (Department item in humanresourcemanager.Departments)
@@ -77,7 +78,7 @@ namespace ConsoleProject
                 Console.WriteLine(item.CalcSalarayAverage(item.Employees));
             }
         }
-
+        //Uygun parametrleri qebul edib, departament yaradir
         public static void AddDepartment(HumanResourceManager humanresourcemanager)
         {
             bool nameloop = true;
@@ -151,7 +152,7 @@ namespace ConsoleProject
             Department department = new Department(departmentname, departmentworkerlimit, departmentsalarylimit);
             humanresourcemanager.AddDepartment(department);
         }
-
+        //Departamentin butun parametrlerini deyisdirib, uygun yeni parametrler yaradir
         public static void EditDepartment(HumanResourceManager humanresourcemanager)
         {
 
@@ -259,7 +260,7 @@ namespace ConsoleProject
 
 
         }
-
+        //Isci siyahisni gosterir
         public static void ShowEmployees(HumanResourceManager humanresourcemanager)
         {
             foreach (Department item in humanresourcemanager.Departments)
@@ -270,6 +271,7 @@ namespace ConsoleProject
                 }
             }
         }
+        //Departamentdeki iscilerin siyahisini gosterir
         public static void ShowDepartmentEmployees(HumanResourceManager humanresourcemanager)
         {
             Console.WriteLine("Isci siyahisini gormek ucun departament adini yazin");
@@ -280,6 +282,7 @@ namespace ConsoleProject
                 Console.WriteLine(item.Id, item.Name, item.Position, item.Salary);
             }
         }
+        //Isci elave edir
         public static void AddEmployee(HumanResourceManager humanresourcemanager)
 
 
@@ -294,7 +297,6 @@ namespace ConsoleProject
             bool positionloop = true;
             bool departmentloop = true;
             bool salaryloop = true;
-            bool nameloop = true;
             Console.WriteLine("Yeni iscinin vezifesini daxil edin");
             while (positionloop)
             {
@@ -321,7 +323,7 @@ namespace ConsoleProject
                 {
                     try
                     {
-                        newemployyesalary = double.Parse(Console.ReadLine());
+                        newemployyesalary = Convert.ToDouble(Console.ReadLine());
                         if (newemployyesalary >= 250)
                         {
                             salaryloop = false;
@@ -368,6 +370,7 @@ namespace ConsoleProject
 
 
         }
+        //Iscinin paramterleri uzerinde deyisiklik edir
         public static void EditEmployee(HumanResourceManager humanresourcemanager)
         {
 
@@ -450,6 +453,7 @@ namespace ConsoleProject
                     }
                 }
             }
+        //Departamentden isci silir
         public static void RemoveEmployee(HumanResourceManager humanResourceManager)
         {
             string departmentname = "";

@@ -24,7 +24,7 @@ namespace ConsoleProject.Models
 
        //Asagidaki constructor-da ilk olaraq field-lere value set edirik. Daha sonra ise her bir isciye unikal ID teyin olunmasi ucun
        //her defesinde countu artiriq. En sonda ise Unikal Countu Departament adinin ilk 2 herfiyle birlesdirib unikal ID-ye set edirik.
-        public Employee(string name, string surname, string position, double salary, string departamentname)
+        public Employee(string name, string surname, string position, double salary, string departamentname):this()
         {
             Name = name;
             Surname = surname;
